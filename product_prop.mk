@@ -12,6 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.hwui.renderer=skiavk \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
+    ro.surface_flinger.running_without_sync_framework=true \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
