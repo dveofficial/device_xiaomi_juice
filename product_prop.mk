@@ -1,3 +1,6 @@
+# Apex
+ro.apex.updatable=false
+
 #Blur
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.sf.blurs_are_expensive=1 \
