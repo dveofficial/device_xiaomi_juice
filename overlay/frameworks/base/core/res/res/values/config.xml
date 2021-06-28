@@ -766,4 +766,7 @@
 
     <!-- Whether device has screen with higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+<!-- Hide notch  -->
+    <bool name="config_physicalDisplayCutout">true</bool>
 </resources>
