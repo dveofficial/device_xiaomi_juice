@@ -14,8 +14,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.use_context_priority=true \
     ro.config.avoid_gfx_accel=true \
-    debug.sf.latch_unsignaled=1 \
-    debug.sdm.support_writeback=0
+    debug.sf.latch_unsignaled=1
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
