@@ -6,7 +6,13 @@
   {
     "repository" : "aseelps/android_kernel_xiaomi_juice",
     "target_path": "kernel/xiaomi/juice",
-    "branch":"11.0",
+    "branch":"11.0-gcc",
+    "remote":"github"
+  },
+  {
+    "repository" : "mvaisakh/gcc-arm64",
+    "target_path": "prebuilts/gcc/eva-arm64",
+    "branch":"gcc-master",
     "remote":"github"
   }
 ]
