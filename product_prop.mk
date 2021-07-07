@@ -19,7 +19,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.running_without_sync_framework=true \
     ro.surface_flinger.use_context_priority=true \
-    debug.sf.latch_unsignaled=1
+    debug.sf.latch_unsignaled=1 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
