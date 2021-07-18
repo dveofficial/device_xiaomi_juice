@@ -13,6 +13,10 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
+
+# MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_juice
 PRODUCT_DEVICE := juice

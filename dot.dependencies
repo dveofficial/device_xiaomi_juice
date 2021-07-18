@@ -8,5 +8,11 @@
     "target_path": "kernel/xiaomi/juice",
     "branch":"main",
     "remote":"github"
+  },
+  {
+    "repository" : "aseelps/vendor_miuicamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch":"juice",
+    "remote":"gitlab"
   }
 ]
